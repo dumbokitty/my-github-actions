@@ -1,7 +1,7 @@
 const { mooncakeSays } = require('./');
 
 test('mooncake knows what to say', () => {
-  expect(mooncakeSays('woooahhh!')).toBe('(o.o) woooahhh!');
+  expect(mooncakeSays('woooahhh!')).toBe('(O.o) woooahhh!');
 });
 
 test('mooncake is not sure what to say', () => {
